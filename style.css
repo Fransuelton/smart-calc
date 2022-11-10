@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(36, 30, 116);
+    font: normal 15pt Arial;
+    font-style: oblique;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    border: solid 30px;
+}
+
+#botoes {
+    text-align: center;
+}
