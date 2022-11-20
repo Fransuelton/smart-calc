@@ -1,2 +1,0 @@
-# Calculadora-de-Prompt
-EXEMPLO
