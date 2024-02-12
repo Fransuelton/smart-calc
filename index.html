@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Prompt</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>SmartCalc</title>
 </head>
-<body>
-   <h1>Calculadora de Prompt</h1>
 
-   <div id="botoes">
-    <button onclick="clicou()">Clique Aqui</button>
-   </div>
-   
-   <script src="index.js"></script>
+<body>
+    <main class="container">
+        <div class="calculator">
+            <input type="text" class="display" readonly>
+            <div class="buttons">
+                <button data-value="AC" class="special-char">AC</button>
+                <button data-value="DEL" class="special-char">DEL</button>
+                <button data-value="%" class="special-char">%</button>
+                <button data-value="/" class="special-char">/</button>
+                <button data-value="7">7</button>
+                <button data-value="8">8</button>
+                <button data-value="9">9</button>
+                <button data-value="*" class="special-char">*</button>
+                <button data-value="4">4</button>
+                <button data-value="5">5</button>
+                <button data-value="6">6</button>
+                <button data-value="-" class="special-char">-</button>
+                <button data-value="1">1</button>
+                <button data-value="2">2</button>
+                <button data-value="3">3</button>
+                <button data-value="+" class="special-char">+</button>
+                <button data-value="0">0</button>
+                <button data-value="00">00</button>
+                <button data-value=".">.</button>
+                <button data-value="=" class="special-char">=</button>
+            </div>
+        </div>
+    </main>
+    
+    <script type="module" src="./src/js/index.js"></script>
 </body>
+
 </html>
