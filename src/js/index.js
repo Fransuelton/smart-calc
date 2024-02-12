@@ -1,4 +1,4 @@
-import { handleClick } from "./handleclick";
+import { handleClick } from "./handleclick.js";
 
 const buttons = document.querySelectorAll("button");
 const display = document.querySelector(".display");
